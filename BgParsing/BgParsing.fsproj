@@ -59,14 +59,12 @@
     <Compile Include="SharedParsers.fs" />
     <Compile Include="IncommingParsers\IncommingMandateFileParser.fs" />
     <Compile Include="IncommingParsers\IncommingPaymentFileParser.fs" />
-<<<<<<< HEAD
     <Compile Include="OutgoingParsers\OutgoingPaymentFileParser.fs" />
     <Compile Include="OutgoingParsers\OutgoingMandateFileParser.fs" />
     <Compile Include="Payment.fs" />
-=======
-    <Compile Include="OutgoingFiles.fs" />
->>>>>>> parent of d88928f... more refactor
     <Compile Include="Mandate.fs" />
+    <Compile Include="EventsPrinter.fs" />
+    <Compile Include="BgcFilerParser.fs" />
     <None Include="Script.fsx" />
     <Content Include="packages.config" />
   </ItemGroup>
